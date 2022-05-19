@@ -8,6 +8,7 @@ import { HEADER_ACTION_TYPE } from "./main/Header/HeaderConstant";
 function App() {
   const dispatch = useDispatch();
   const user = TokenService.getUser();
+
   if (user) {
     dispatch({
       type: HEADER_ACTION_TYPE.LOGIN_SUCCESS,
