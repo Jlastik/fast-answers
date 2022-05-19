@@ -73,7 +73,7 @@ export const AnswerComponent = ({
           }
           value={
             lastAnswerOpen && currentValue
-              ? currentValue + "\n" + "👇"
+              ? currentValue + "\n 👇"
               : currentValue
           }
           onChange={(e) => setCurrentValue(e)}

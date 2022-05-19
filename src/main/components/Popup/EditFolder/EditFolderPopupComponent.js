@@ -22,7 +22,7 @@ import {
   deleteFolder,
   deleteSubFolder,
 } from "../../Constructor/ConstructorAction";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 
 const contentStyle = {
   padding: "20px",

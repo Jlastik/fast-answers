@@ -40,11 +40,11 @@ export const HeaderComponent = ({
         <StyledLoginContainer>
           <p>{isLoggedIn ? user.username : ""}</p>
           {isLoggedIn ? (
-            <a onClick={() => logout()}>
+            <a href="#" onClick={() => logout()}>
               Выйти <img src={Logout} alt=""></img>
             </a>
           ) : (
-            <a onClick={() => setLogOpen(true)}>
+            <a href="#" onClick={() => setLogOpen(true)}>
               Войти <img src={Logout} alt=""></img>
             </a>
           )}

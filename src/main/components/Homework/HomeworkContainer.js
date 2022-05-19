@@ -7,15 +7,8 @@ import { LESSON_STORE_NAME } from "../LessonSelect/LessonSelectConstant";
 
 export const HomeworkContainer = () => {
   const dispatch = useDispatch();
-  const {
-    origin,
-    currentHomeworkText,
-    isHomeworkPending,
-    isHomeworkSuccess,
-    isHomeworkError,
-    homeworkErrorMessage,
-    isHomeworkSend,
-  } = useSelector((store) => store[HOMEWORK_STORE_NAME]);
+  const { origin, currentHomeworkText, isHomeworkPending, isHomeworkSend } =
+    useSelector((store) => store[HOMEWORK_STORE_NAME]);
 
   const { currentLesson } = useSelector((store) => store[LESSON_STORE_NAME]);
 

@@ -55,10 +55,6 @@ export const ConstructorComponent = ({
   const [addFolderOpen, setAddFolderOpen] = useState(false);
   const [editFolderOpen, setEditFolderOpen] = useState(false);
 
-  const sortFolders = (a, b) => {
-    return a.priority > b.priority ? 1 : -1;
-  };
-
   return (
     <div>
       <AcceptDeletePhrasePopupComponent

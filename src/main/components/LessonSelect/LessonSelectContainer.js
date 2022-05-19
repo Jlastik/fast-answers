@@ -5,14 +5,9 @@ import { LESSON_STORE_NAME, LESSON_ACTION_TYPE } from "./LessonSelectConstant";
 
 export const LessonSelectContainer = ({ isHomeworkSend }) => {
   const dispatch = useDispatch();
-  const {
-    lessons,
-    currentLesson,
-    islessonsPending,
-    islessonsSuccess,
-    islessonsError,
-    lessonsErrorMessage,
-  } = useSelector((store) => store[LESSON_STORE_NAME]);
+  const { lessons, currentLesson, islessonsPending } = useSelector(
+    (store) => store[LESSON_STORE_NAME]
+  );
 
   const setCurrentLesson = (currentLesson) => {
     dispatch({

@@ -12,8 +12,6 @@ import {
   StyledPriorityContainer,
   StyledCopyIcon,
 } from "./AnswerItemStyle";
-import { ReactComponent as ShowMore } from "../../../assets/svg/show-more.svg";
-import { ReactComponent as CopyAnswer } from "../../../assets/svg/copy-answer.svg";
 import { ReactComponent as HelpTooltip } from "../../../assets/svg/help-tooltip.svg";
 import Copy from "../../../assets/img/copy.png";
 import {

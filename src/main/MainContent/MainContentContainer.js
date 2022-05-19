@@ -11,17 +11,7 @@ export const MainContentContainer = () => {
   const [checkTime, setCheckTime] = useState(0);
   const [isTimerOver, setIsTimerOver] = useState(false);
   const time = new Date();
-  const {
-    seconds,
-    minutes,
-    hours,
-    days,
-    isRunning,
-    start,
-    pause,
-    resume,
-    restart,
-  } = useTimer({
+  const { seconds, minutes, start, pause, restart } = useTimer({
     expiryTimestamp: time.setSeconds(time.getSeconds() + checkTime),
     onExpire: () => setIsTimerOver(true),
     autoStart: false,

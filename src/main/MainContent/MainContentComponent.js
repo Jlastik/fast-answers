@@ -6,7 +6,6 @@ import {
   StyledFirstBlock,
   StyledSecondBlock,
   StyledThirdBlock,
-  StyledNotLoginContent,
 } from "./MainContentStyle";
 import {
   ModuleSelectContainer,

@@ -42,7 +42,7 @@ export const getLasAnswer = (lessonId) => {
     });
     try {
       await api
-        .get(`homework/?lesson=${lessonId != "no-value" ? lessonId : ""}`)
+        .get(`homework/?lesson=${lessonId !== "no-value" ? lessonId : ""}`)
         .then((res) => {
           dispatch({
             type: ANSWER_ACTION_TYPE.GET_LAST_ANSWER_SUCCESS,

@@ -5,7 +5,6 @@ import { HOMEWORK_STORE_NAME } from "../Homework/HomeworkConstant";
 import { ANSWER_STORE_NAME, ANSWER_ACTION_TYPE } from "./AnswerConstant";
 import { LESSON_STORE_NAME } from "../LessonSelect";
 import { getLasAnswer, postAnswer, changePriority } from "./AnswerAction";
-import getCaretCoordinates from "textarea-caret-position";
 
 export const AnswerContainer = ({
   minutes,

@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useMemo } from "react";
+import React, { useEffect, useState } from "react";
 import { ConstructorComponent } from "./ConstructorComponent";
 import {
   CONSTRUCTOR_ACTION_TYPE,
