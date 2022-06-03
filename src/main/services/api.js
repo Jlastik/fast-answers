@@ -1,7 +1,7 @@
 import axios from "axios";
 import TokenService from "./token.service";
 const instance = axios.create({
-  baseURL: "https://desolate-shore-78177.herokuapp.com/",
+  baseURL: "http://45.147.178.245:8000/",
   headers: {
     "Content-Type": "application/json",
   },
